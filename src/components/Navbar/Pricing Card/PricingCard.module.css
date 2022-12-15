@@ -1,0 +1,84 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+#pricingCard{
+  
+padding: 1rem;
+display: flex;
+flex-direction: column;
+border-radius: 11px;
+background-color: #FAFAFF;
+box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+}
+.pricingCardTitle{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color:rgb(0 53 166);
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.pricingDetailCont{
+    height: 90%;
+}
+.pricingCardFeaturesCont{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.checkMarkCont{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(187 247 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .2rem;
+    margin-right: 1rem;
+}
+.crossMarkCont{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(254 202 202);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .2rem;
+    margin-right: 1rem;   
+}
+.pricingCardFeatureHeading,.twoDots{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: bolder;
+}
+.pricingCardFeatureInfo{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgb(31 41 55);
+    margin-left: .5rem;
+    font-weight: 400;
+}
+.priceCont{
+    display: flex;
+    margin-top: 1.5rem;
+}
+.price{
+    color: rgb(0 53 166);
+    font-size: 1.7rem;
+    line-height: 1.5rem;
+    font-weight: bolder;
+}
+.payNowButton{
+    font-weight: 600;
+    background-color: rgb(0 53 166);
+    width: 120px;
+    cursor: pointer;
+    border-radius: .375rem;
+    border: none;
+    color: white;
+    margin-top: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
